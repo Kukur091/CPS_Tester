@@ -13,12 +13,13 @@
     "deploy": "gh-pages -d dist"
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/Kukur091/CPS_Tester.git"
-},
+    "type": "git",
+    "url": "https://github.com/Kukur091/CPS_Tester.git"
+  },
   "dependencies": {
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "reactjs-popup": "^2.0.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",

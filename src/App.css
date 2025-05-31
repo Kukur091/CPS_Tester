@@ -118,6 +118,66 @@
   z-index: 1;
 }
 
+.Login {
+  transform : translate(700%,0%);
+  border-color: #5e4e23;
+}
+
+.form{
+  width: 1000px;
+  height: 500px;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  border: 1px solid #6e7002;
+}
+
+.mail {
+  display: block;    
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  padding: 10px;
+  text-align: center;
+}
+
+.send {
+  display: block;      
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.register {
+  display: block;
+  margin-top: 10px;
+}
+.name1 {
+  font: font-bold;
+  display: flex;
+  justify-content: center;
+  transform: translate(0%,230%);
+}
+
+.name2 {
+  font: font-bold;
+  display: flex;
+  justify-content: center;
+  transform: translate(0%,30%);
+}
+
+.Mdp {
+  display: block;      
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
 
 .page {
   padding: 2em;

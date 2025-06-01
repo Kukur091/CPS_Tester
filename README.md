@@ -14,4 +14,4 @@ and
 `npm start`
 to build and run the frontend
 
-
+In this project i used React, Vite, MySQL, Express, Jsonwebtoken, Axios, 

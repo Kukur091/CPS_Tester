@@ -1,0 +1,226 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.popup {
+  animation: spawn 1s ease;
+  position: fixed;
+  width: 800px;
+  height: 400px;
+  border-color:#ffef64;
+  z-index: 1000;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.screenfog{
+  width: 100%;
+  height: 100%;
+  background-color: #000000b2;
+  z-index: 999;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+.popupbutton{
+  margin: 0 auto;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  transform: translate(0, 100px);
+  border-color: #5e4e23;
+}
+.click {
+  animation : click 0.1s ease;
+}
+
+.ustre {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  width: 1000px;
+  height: 500px;
+  background-color: #1a1a1a;
+  transform: translate(-20px,-11px);
+  z-index: 2;
+
+}
+
+.clickcount {
+  display: flex;
+  margin-left: 105%;
+  margin-top: -220px;
+  border: 1px solid transparent;
+  border-color: #ffef64;
+  z-index: 1;
+}
+
+.timer {
+  display: flex;
+  margin-left: 105%;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  border-color: #ffef64;
+  z-index: 1;
+}
+
+.ustre:hover {
+  border-color: #ffef64;
+}
+
+.pad {
+  width: 1000px;
+  height: 500px;
+  background-color: #363636;
+  z-index: 1;
+}
+
+.cps{
+  display: flex;
+  margin-left: 105%;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  border-color: #ffef64;
+  z-index: 1;
+}
+
+.fives {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #5e4e23;
+  transform: translate(0, 10px);
+  z-index: 1;
+}
+
+.tens {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #5e4e23;
+  transform: translate(0, 10px);
+  margin-left: 10px;
+  z-index: 1;
+}
+
+.twentys {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #5e4e23;
+  transform: translate(0, 10px);
+  margin-left: 10px;
+  z-index: 1;
+}
+
+.Login {
+  width: 150px;
+  transform : translate(500%,0%);
+  border-color: #5e4e23;
+}
+
+.form{
+  width: 1000px;
+  height: 500px;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  border: 1px solid #6e7002;
+}
+
+.mail {
+  display: block;    
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.send {
+  display: block;      
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding: 5px;
+  text-align: center;
+}
+
+.error {
+  color: red;
+}
+
+.register {
+  display: block;
+  margin-top: 10px;
+}
+.name1 {
+  font: font-bold;
+  display: flex;
+  justify-content: center;
+  transform: translate(0%,70%);
+}
+
+.name2 {
+  font: font-bold;
+  display: flex;
+  justify-content: center;
+  transform: translate(0%,30%);
+}
+
+.Mdp {
+  display: block;      
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.page {
+  padding: 2em;
+}
+
+.footer {
+  color: #525252;
+  z-index: 1;
+}
+
+
+@keyframes test {
+  from {
+    background-color: #3d3d3d;
+  }
+
+  to {
+    background-color: #333333;
+  }
+}
+
+@keyframes click {
+  0% {
+    clip-path: circle(30px);
+    color: #312d2d;
+  }100% {
+    clip-path: circle(300px);
+    color: rgb(109, 109, 109);
+  }
+}
+
+@keyframes spawn {
+  0% {
+    size: 50%;
+  }25%{
+    size: 80%;
+  }100% {
+    size: 100%;
+  }
+}
